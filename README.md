@@ -5,12 +5,15 @@
 SELECT (*column) FROM (*table) WHERE (*rule)
 sudo apt-get install mysql-server
 ```
+Ref : [https://docs.rackspace.com/support/how-to/install-mysql-server-on-the-ubuntu-operating-system/]
+
 
 ## create account and give auth
 ```
 CREATE USER 'account_name'@'localhost' IDENTIFIED BY 'account_name';
 GRANT ALL PRIVILEGES ON *.* TO 'account_name'@'localhost';
 ```
+Ref : [https://caloskao.org/mariadb-mysql-create-account-and-grant-access-in-cli/]
 
 
 ## Syntax
